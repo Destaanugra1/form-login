@@ -191,7 +191,7 @@ p {
       text-align: center;
       gap: 2rem;
     }
-    .nav {
+    /* .nav {
       position: absolute;
       top: 100%;
       right: -100%;
@@ -208,5 +208,5 @@ p {
     }
     #humberger {
       display: inline-block;
-    }
+    } */
   }

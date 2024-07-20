@@ -183,6 +183,9 @@ p {
 }
   /* Mobile */
   @media (max-width: 768px) {
+    html {
+      font-size: 0.9rem;
+    }
     .container-profile {
       flex-direction: column;
       align-items: center;
@@ -199,5 +202,6 @@ p {
     .card-1 {
      flex-grow: 1;
       flex-basis: 200;
+      width: 20%;
     }
   }
