@@ -141,22 +141,6 @@ button {
   color: var(---font);
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .container-profile {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 2rem;
-  }
-  img {
-    width: 100%;
-    margin-left: 0;
-  }
-}
 
 .card {
   display: flex;
@@ -165,6 +149,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 1.5rem 7%;
  
 }
 .card-1 {
@@ -192,3 +177,27 @@ button {
 p {
   color: white;
 }
+
+#humberger {
+  display: none;
+}
+  /* Mobile */
+  @media (max-width: 768px) {
+    .container-profile {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 2rem;
+    }
+    .card {
+      display: flex;
+      
+    }
+    .card-1 {
+     flex-grow: 1;
+      flex-basis: 200;
+    }
+  }
