@@ -141,7 +141,6 @@ button {
   color: var(---font);
 }
 
-
 .card {
   display: flex;
   gap: 2rem;
@@ -150,7 +149,6 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   padding: 1.5rem 7%;
- 
 }
 .card-1 {
   width: 20%;
@@ -170,7 +168,7 @@ button {
 }
 
 .img-2:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
   transition: 1s linear;
 }
 
@@ -181,27 +179,26 @@ p {
 #humberger {
   display: none;
 }
-  /* Mobile */
-  @media (max-width: 768px) {
-    html {
-      font-size: 0.9rem;
-    }
-    .container-profile {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 2rem;
-    }
-    .card {
-      display: flex;
-      
-    }
-    .card-1 {
-     flex-grow: 1;
-      flex-basis: 200;
-      width: 20%;
-    }
+/* Mobile */
+@media (max-width: 768px) {
+  html {
+    font-size: 0.9rem;
   }
+  .container-profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+  .card {
+    display: flex;
+  }
+  .card-1 {
+    flex-grow: 1;
+    flex-basis: 200;
+    width: 20%;
+  }
+}

@@ -141,7 +141,6 @@ button {
   color: var(---font);
 }
 
-
 .card {
   display: flex;
   gap: 2rem;
@@ -149,7 +148,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- 
 }
 .card-1 {
   width: 20%;
@@ -169,7 +167,7 @@ button {
 }
 
 .img-2:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
   transition: 1s linear;
 }
 
@@ -180,18 +178,18 @@ p {
 #humberger {
   display: none;
 }
-  /* Mobile */
-  @media (max-width: 768px) {
-    .container-profile {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 2rem;
-    }
-    /* .nav {
+/* Mobile */
+@media (max-width: 768px) {
+  .container-profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+  /* .nav {
       position: absolute;
       top: 100%;
       right: -100%;
@@ -209,4 +207,96 @@ p {
     #humberger {
       display: inline-block;
     } */
+}
+
+.view {
+  width: 500;
+  height: auto;
+  padding: 2rem;
+  margin-left: 20%;
+  border-radius: 5rem;
+  background: local;
+  aspect-ratio: 16/9;
+}
+
+.container-das {
+  position: absolute;
+  padding: 1rem;
+  right: 4rem;
+  width: 95%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+    url("/images/view.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  border-radius: 5px;
+  height: 55vh;
+  margin-top: 1rem;
+}
+
+.das {
+  color: white;
+  text-align: center;
+}
+
+.penjelasan {
+  font-size: 1rem;
+  color: white;
+  padding: 2rem;
+  text-align: start;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+.list1 {
+  text-decoration: none;
+  text-align: start;
+  list-style: none;
+}
+.list2 {
+  text-decoration: none;
+  text-align: end;
+  list-style: none;
+}
+
+/* mobile dasboard */
+@media (max-width: 768px) {
+  .container-das {
+    width: 100%;
+    padding: 1rem;
+    right: 0;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+      url("/images/view.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 5px;
+    height: 55vh;
+    margin-top: 1rem;
+    gap: 5rem;
   }
+  .penjelasan {
+    font-size: 1rem;
+    color: white;
+    padding: 2rem;
+    text-align: start;
+  }
+  .list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .list1 {
+    text-decoration: none;
+    text-align: start;
+    list-style: none;
+  }
+  .list2 {
+    text-decoration: none;
+    text-align: end;
+    list-style: none;
+  }
+}
